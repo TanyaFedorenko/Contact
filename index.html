@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no maximum-scole">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/csscontact.css">
+    <title>Contact</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-1"> <img src="img/logo.png" class="logo"> </div>
+                <div class="col-lg-3 ml-auto">
+                    <nav>
+                        <ul class="menu d-flex justufy-content-right">
+                            <li class="menu__item"> <a href="#">Home</a> </li>
+                            <li class="menu__item"> <a href="#">About</a></li>
+                            <li class="menu__item"> <a href="#">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section id="contact" class="contact">
+        <div class="container" id="contact">
+            <div class="row">
+                <div class="col-lg-4 m-0 justufy-content-center">
+                    <div class="offer">
+                        <h1 class="offer__intro">
+                            Contact info
+                        </h1> </div>
+                    <div class="offer__text"> To give give beginning divide, cattle. Give moving won't, there the abundantly she'd she'd brought air upon. Light hath subdue. Life days creature upon first heaven gathering dry. </div>
+                    <div class="offer__intro">
+                        <p> <span>Adress:</span> 10111 Santa Monica Bolevard.LA </p>
+                        <p><span> Phone:</span> +44987065908 </p>
+                        <p> <span>Email:</span> info@Example.com </p>
+                        <p><span> Fax: </span>+1198706909 </p>
+                    </div>
+                </div>  
+                <div class="col-lg-7 col-12 button ml-auto">
+                    <form class="form-inline">
+                        <div class="form-group">
+                            <input type="text" placeholder="Your name" class="form_input_sm" id="name" required>
+                            <input type="email" placeholder="Your Email" class="form_input_sm" required> </div>
+                    </form>
+                    <input type="text" placeholder="Your title" class="form_input" required>
+                    <input type="text" placeholder="Your comment" class="form_input text-top" id="commet" required> 
+             
+                            <button type="submit" class="form_btn m-auto" value="Send message">Send message</button></div></div>
+                 
+            </div>
+    </section>
+    <section class="position">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 ml-auto">
+                    <div id="map"></div>
+                    <script>
+                        function initMap() {
+                            var myLatLng = {
+                                lat: 34.0123
+                                , lng: -118.5
+                            };
+                            // Create a map object and specify the DOM element
+                            // for display.
+                            var map = new google.maps.Map(document.getElementById('map'), {
+                                center: myLatLng
+                                , zoom: 15
+                            });
+                            // Create a marker and set its position.
+                            var marker = new google.maps.Marker({
+                                map: map
+                                , position: myLatLng
+                                , title: 'Hello World!'
+                            });
+                        }
+                    </script>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-6">
+                    <h5>
+                      Piroll Design,Ing
+                   </h5>
+                    <p> 2017 Piroll. All rights reserved. Designed by robirurk</p>
+                </div>
+                <div class="col-lg-3 col-md-2 col-6">
+                    <p> hello@piroll theme.com</p>
+                    <p>+44&nbsp;987&nbsp;065&nbsp;908 </p>
+                </div>
+                <div class="col-lg-3 col-md-2 col-6 d-flex">
+                    <ul class="about">
+                        <li class="about__item"> <a href="#">Project</a> </li>
+                        <li class="about__item"> <a href="#">About</a></li>
+                        <li class="about__item"> <a href="#">Services</a></li>
+                        <li class="about__item"> <a href="#">Carreer</a></li>
+                    </ul>
+                    <ul class="about 
+                       ">
+                        <li class="about__item"> <a href="#">New</a> </li>
+                        <li class="about__item"> <a href="#">Events</a></li>
+                        <li class="about__item"> <a href="#">Contact</a></li>
+                        <li class="about__item"> <a href="#">Legels</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-1 col-md-1 col-6 ml-auto">
+                    <ul class="site">
+                        <li class="site__item"> <a href="#">Facebook</a> </li>
+                        <li class="site__item"> <a href="#">Twitter</a></li>
+                        <li class="site__item"> <a href="#">Instagram</a></li>
+                        <li class="site__item"> <a href="#">Dribbble</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA7WHmflWdFmTKzRZORZWIRoe4UnUYWFGo &callback=initMap" async defer></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js " integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut " crossorigin="anonymous "></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js " integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k " crossorigin="anonymous "></script>
+    <!--Map-->
+</body>
+
+</html>
